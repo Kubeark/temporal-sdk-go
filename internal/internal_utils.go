@@ -51,7 +51,7 @@ const (
 	// minRPCTimeout is minimum gRPC call timeout allowed.
 	minRPCTimeout = 1 * time.Second
 	// maxRPCTimeout is maximum gRPC call timeout allowed (should not be less than defaultRPCTimeout).
-	maxRPCTimeout = 10 * time.Second
+	maxRPCTimeout = 10 * time.Minute
 )
 
 // grpcContextBuilder stores all gRPC-specific parameters that will
