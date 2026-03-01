@@ -1,19 +1,21 @@
 module go.temporal.io/sdk/contrib/opentelemetry
 
-go 1.21
+go 1.24.0
 
 require (
-	github.com/stretchr/testify v1.9.0
-	go.opentelemetry.io/otel v1.27.0
-	go.opentelemetry.io/otel/sdk v1.27.0
-	go.opentelemetry.io/otel/trace v1.27.0
+	github.com/stretchr/testify v1.11.1
+	go.opentelemetry.io/otel v1.40.0
+	go.opentelemetry.io/otel/sdk v1.40.0
+	go.opentelemetry.io/otel/trace v1.40.0
 	go.temporal.io/sdk v1.12.0
 )
 
 require (
-	github.com/go-logr/logr v1.4.1 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
+	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/nexus-rpc/sdk-go v0.0.11 // indirect
+	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	golang.org/x/sync v0.8.0 // indirect
 )
 
@@ -29,12 +31,12 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/robfig/cron v1.2.0 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
-	go.opentelemetry.io/otel/metric v1.27.0
-	go.opentelemetry.io/otel/sdk/metric v1.27.0
+	go.opentelemetry.io/otel/metric v1.40.0
+	go.opentelemetry.io/otel/sdk/metric v1.40.0
 	go.temporal.io/api v1.40.0 // indirect
 	golang.org/x/exp v0.0.0-20231127185646-65229373498e // indirect
 	golang.org/x/net v0.28.0 // indirect
-	golang.org/x/sys v0.24.0 // indirect
+	golang.org/x/sys v0.40.0 // indirect
 	golang.org/x/text v0.17.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240827150818-7e3bb234dfed // indirect
